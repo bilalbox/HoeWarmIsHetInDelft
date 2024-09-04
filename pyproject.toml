@@ -1,14 +1,11 @@
 [project]
 name = "HoeWarmIsHetInDelft"
 version = "0.1.0"
-requires_python = ">=3.12"
+requires-python = ">=3.12"
+description = "Coding tasks example package for retrieving weather"
+readme = "README.md"
+license = { file = "LICENSE.md" }
 dependencies = [
   "httpx",
   "beautifulsoup4",
-]
-[project.optional-dependencies]
-dev = [
-  "pytest",
-  "coverage",
-  "black",
 ]
