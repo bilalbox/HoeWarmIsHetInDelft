@@ -1,5 +1,9 @@
 # How Warm Is It In Delft?
 
+[![Test Coverage](https://github.com/bilalbox/HoeWarmIsHetInDelft/actions/workflows/pytest-coverage-commentator.yml/badge.svg)](https://github.com/bilalbox/HoeWarmIsHetInDelft/actions/workflows/pytest-coverage-commentator.yml)
+
+[![Docker Image](https://github.com/bilalbox/HoeWarmIsHetInDelft/actions/workflows/docker-image.yml/badge.svg)](https://github.com/bilalbox/HoeWarmIsHetInDelft/actions/workflows/docker-image.yml)
+
 Prints the current temperature in Delft in degrees Celcius.
 
 ## Project Tasks
