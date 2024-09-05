@@ -19,12 +19,12 @@ Example expected output
 
 ## USAGE
 
-`docker run --rm registry.gitlab.com/bilalbox/hoewarmishetindelft`
+`docker run --rm ghcr.io/bilalbox/hoewarmishetindelft:main`
 
 ## INSTALLATION AND TESTING
 
-1. To install uv, see [the installation docs](https://docs.astral.sh/uv/getting-started/installation)
-2. Once installed, clone the repo with `git clone gitlab.com/bilalbox/hoewarmishetindelft.git`
-3. Create a virtual environment and activate it with `uv venv` and `source .venv/bin/activate`
-4. Install dependencies with `uv pip install -r requirements`
-5. To run tests use `python -m pytest ./tests` from the project root
+1. Clone the repo with `git clone gitlab.com/bilalbox/hoewarmishetindelft.git && cd hoewarmishetindelft`
+2. Create a virtual environment and activate it with `python -m venv .venv` and `source .venv/bin/activate`
+3. Install dependencies with `pip install -r requirements`
+4. For testing and code coverage reports, install dependencies with `pip install pytest coverage`
+5. Run tests and generate code coverage reports with `coverage run -m pytest ./tests && coverage report -m` from the project root
